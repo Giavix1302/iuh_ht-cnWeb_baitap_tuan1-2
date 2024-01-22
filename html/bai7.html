@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nextpage {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            width: 100vw;
+            background-color: transparent;
+            margin-top: 20px;
+        }
+
+        .nextpage a {
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            padding: 12px 20px;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .app {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 700px;
+            border: 2px solid #ddd;
+            padding: 10px;
+            box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
+        }
+        
+        .section {
+            padding: 10px;
+            border-bottom: 2px solid #ccc;
+        }
+
+        .section p {
+            display: inline;
+        }
+       
+   
+        
+    </style>
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+            <section class="section">
+                <img algin="right" src="../assets/bai7.PNG" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe repellat reprehenderit consectetur omnis, veniam sunt distinctio tenetur? Esse ipsam praesentium minima odio sint! In eveniet architecto quidem, nesciunt doloribus magnam!</p>
+           </section>
+           
+            <section class="section" style="display: flex;">
+                <img src="../assets/bai7.PNG" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe repellat reprehenderit consectetur omnis, veniam sunt distinctio tenetur? Esse ipsam praesentium minima odio sint! In eveniet architecto quidem, nesciunt doloribus magnam!</p>
+            </section>
+
+            <section class="section" style="display: flex; flex-direction: row-reverse;">
+                <img src="../assets/bai7.PNG" alt="">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe repellat reprehenderit consectetur omnis, veniam sunt distinctio tenetur? Esse ipsam praesentium minima odio sint! In eveniet architecto quidem, nesciunt doloribus magnam!</p>
+            </section>
+        </div>
+       
+
+
+    </div>
+
+    
+     
+    <div class="nextpage" >
+        <a href="./bai11.html" class="">bài 11</a>
+    </div>
+</body>
+</html>

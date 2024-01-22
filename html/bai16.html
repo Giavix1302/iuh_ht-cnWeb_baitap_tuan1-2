@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nextpage {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            width: 100vw;
+            background-color: transparent;
+            margin-top: 20px;
+        }
+
+        .nextpage a {
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            padding: 12px 20px;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .app {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 700px;
+            border: 2px solid #ddd;
+            padding: 10px;
+            box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
+            
+        }
+
+        .header {
+            font-size: 30px;
+        }
+
+        .desc {
+            margin: 10px 0;
+        }
+
+        .form-group {
+            margin-bottom: 10px;
+            display: flex;
+            gap: 10px;
+        }
+
+        fieldset {
+            padding: 10px;
+            margin: 10px;
+        }
+    
+     
+        
+    </style>
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+            <h1 class="header">Travel reservation form</h1>
+            <p class="desc">denotes mandotory</p>
+            <form action="" class="form">
+                <div class="form-group">
+                    <label for="">full name*: </label>
+                    <input type="text">
+                </div>
+                <div class="form-group">
+                    <label for="">email address*: </label>
+                    <input type="email">
+                </div>
+                <div class="form-group">
+                    <label for="">how did you hear of us: </label>
+                    <select name="" id="">
+                        <option value="">Google</option>
+                        <option value="">Facebook</option>
+                        <option value="">Intagram</option>
+                        <option value="">linkedin</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="">Arrival date: </label>
+                    <input type="date">
+                </div>
+                <div class="form-group">
+                    <label for="">Number of persion*: </label>
+                    <input type="text">
+                </div>
+                <div class="form-group" style="display: block;">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, unde.?</p>
+                    <div class="" style="display: flex; gap: 10px; margin-bottom: 10px;">
+                        <p>boading</p>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="" style="display: flex; gap: 10px; margin-bottom: 10px;">
+                        <p>fooding</p>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                    <div class="" style="display: flex; gap: 10px; margin-bottom: 10px;">
+                        <p>seeing</p>
+                        <input type="checkbox" name="" id="">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="">Discount coupon code: </label>
+                    <input type="text">
+                </div>
+                <div class="form-group">
+                    <label for="">Term and condition*</label>
+                    <div class="" style="display: flex; gap: 10px;">
+                        <input type="radio" name="" id="">
+                        <p class="">I agree</p>
+                    </div>
+                    <div class="" style="display: flex; gap: 10px;">
+                        <input type="radio" name="" id="">
+                        <p class="">I disagree</p>
+                    </div>
+                </div>
+                <button>Complete reservation</button>
+            </form>
+        </div>    
+    </div>
+
+    
+     
+    <div class="nextpage" >
+        <a href="./bai17.html" class="">bài 17</a>
+    </div>
+</body>
+</html>

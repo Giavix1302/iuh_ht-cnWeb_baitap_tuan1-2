@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nextpage {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            width: 100vw;
+            background-color: transparent;
+            margin-top: 20px;
+        }
+
+        .nextpage a {
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            padding: 12px 20px;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .app {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 700px;
+            border: 2px solid #ddd;
+            padding: 10px;
+            box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
+            
+        }
+
+        .header {
+            font-size: 30px;
+        }
+
+        .desc {
+            margin: 10px 0;
+        }
+
+        .form-group {
+            margin-bottom: 10px;
+            display: flex;
+            gap: 10px;
+        }
+
+        fieldset {
+            padding: 10px;
+            margin: 10px;
+        }
+    
+     
+        
+    </style>
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+            <h1 class="header">Contact us</h1>
+            <fieldset>
+                <legend>Your messages</legend>
+                <div class="form-group">
+                    <label for="">To: </label>
+                    <input type="email">
+                </div>
+                <div class="form-group">
+                    <label for="">Your email: </label>
+                    <input type="email">
+                </div>
+                <div class="form-group">
+                    <label for="">Message: </label>
+                    <textarea name="" id="" cols="30" rows="5"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>How you found us</legend>
+                <div class="form-group">
+                    <label for="">how did you hear of us: </label>
+                    <select name="" id="">
+                        <option value="">Google</option>
+                        <option value="">Facebook</option>
+                        <option value="">Intagram</option>
+                        <option value="">linkedin</option>
+                    </select>
+                </div>
+    
+                <div class="form-group">
+                    <p style="margin-right: 10px;">News letter</p>
+                    <input type="checkbox" name="" id="">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt, nihil!</p>
+                </div>
+            </fieldset>
+            <button>Send email</button>
+            <fieldset>
+                <legend>How you found us</legend>
+                <div class="form-group">
+                    <label for="">first name: </label>
+                    <input type="email">
+                </div>
+                <div class="form-group">
+                    <label for="">last name: </label>
+                    <input type="email">
+                </div>
+                <div class="form-group">
+                    <label for="">email: </label>
+                    <input type="email">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Competition question</legend>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, unde.?</p>
+                <div class="form-group">
+                    <input type="radio">
+                    <p>548ft</p>
+                </div>
+                <div class="form-group">
+                    <input type="radio">
+                    <p>518ft</p>
+                </div>
+                <div class="form-group">
+                    <input type="radio">
+                    <p>528ft</p>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Tiebreaker question</legend>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, unde.?</p>
+                <textarea name="" id="" cols="50" rows="10"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Enter competition</legend>
+                <button>Enter competition</button>
+            </fieldset>
+        </div>
+       
+    </div>
+
+    
+     
+    <div class="nextpage" >
+        <a href="./bai16.html" class="">bài 16</a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nextpage {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            width: 100vw;
+            background-color: transparent;
+            margin-top: 20px;
+        }
+
+        .nextpage a {
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            padding: 12px 20px;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .app {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 700px;
+            border: 2px solid #ddd;
+            padding: 10px;
+            box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
+        }
+        
+        .heading {
+            font-size: 30px;
+        }
+
+        .sub_list,
+        .list {
+            margin-left: 30px;
+        }
+        
+        .section.link {
+            margin-top: 20px;
+        }
+
+        .section.link a {
+            border-right: 2px solid #ccc;
+            padding-right: 8px;
+            margin-right: 4px;
+        }
+        
+       
+   
+        
+    </style>
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+           <img src="../assets/bai11.PNG" alt="">
+           <Section class="section">
+                <h2 class="heading">About</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iusto minima id architecto nam distinctio odit cupiditate at praesentium nisi ab a optio, voluptatibus illum, corporis iure blanditiis incidunt magnam.</p>
+           </Section>
+           <Section class="section">
+                <h2 class="heading" style="margin-bottom: 20px;">Project</h2>
+                <ul class="list">
+                    <li>
+                        Featured
+                        <ul class="sub_list">
+                            <li><a href="">School of web</a></li>
+                            <li><a href="">Crisis Commons</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        Latest
+                        <ul class="sub_list">
+                            <li><a href="">JessyInk</a></li>
+                            <li><a href="">PrivacyCamp</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </Section>
+            <section class="section link">
+                <a href="">twitter</a>
+                <a href="">facebook</a>
+                <a href="" style="border: none;">flickr</a>
+            </section>
+        </div>
+       
+
+
+    </div>
+
+    
+     
+    <div class="nextpage" >
+        <a href="./bai12.html" class="">bài 12</a>
+    </div>
+</body>
+</html>

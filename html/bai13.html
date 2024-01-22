@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        .nextpage {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 50px;
+            width: 100vw;
+            background-color: transparent;
+            margin-top: 20px;
+        }
+
+        .nextpage a {
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            padding: 12px 20px;
+            background-color: #000;
+            color: #fff;
+        }
+
+        .app {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+            flex-direction: column;
+        }
+
+        .container {
+            max-width: 700px;
+            border: 2px solid #ddd;
+            padding: 10px;
+            box-shadow: 1px 1px 30px rgba(0, 0, 0, 0.5);
+            
+        }
+    
+        .form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .form-group label {
+            display: block;
+        }
+   
+        
+    </style>
+</head>
+<body>
+    <div class="app">
+        <div class="container">
+            <form class="form" action="" method="post">
+                <div class="form-group">
+                    <label for="">Name: </label>
+                    <input type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Telephone number: </label>
+                    <input type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Email: </label>
+                    <input type="text">
+                </div>
+
+                <div class="form-group">
+                    <label for="">favorite color: </label>
+                    <input type="color">
+                </div>
+
+                <div class="form-group">
+                    <label for="">Date of birth: </label>
+                    <input type="date">
+                </div>
+
+                <button>Submit</button>
+            </form>
+        </div>
+       
+
+
+    </div>
+
+    
+     
+    <div class="nextpage" >
+        <a href="./bai14.html" class="">bài 14</a>
+    </div>
+</body>
+</html>
